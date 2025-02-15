@@ -24,6 +24,6 @@ The source code is licensed under the MIT license.
 This project uses 3rd party images:
 * 2D pictures of orbitals: [Wikipedia](https://en.wikipedia.org/wiki/Atomic_orbital#Orbitals_table)
 * The Theodore Benfey spiral periodic table image is a modified version of an [Wikimedia](https://commons.wikimedia.org/wiki/File:Elementspiral_(polyatomic).svg) image and is licensed under Creative Commons By-SA 3.0 (same as original).
-* The star space background is: [Photo by Kai Pilger](https://www.pexels.com/photo/cluster-of-stars-1341279/), taken from www.pexels.com.
+* The star space background is: [Photo by Kai Pilger](https://www.pexels.com/photo/cluster-of-stars-1341279/), taken from [pexels.com](https://www.pexels.com/).
 
-There is an "image credits" link in the main page (index.html) of this project.
+There is an "image credits" link in the main page (index.html) of this project, that offers more details about the images and their atribution or license.
