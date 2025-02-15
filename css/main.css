@@ -1,0 +1,73 @@
+/* settings for applying 'border-box' box sizing to everything */
+html
+{
+    box-sizing: border-box;
+    background-color: hsl(0, 0%, 0%);
+}
+
+/* settings for applying 'border-box' box sizing to everything through inheritance */
+*, *:before, *:after
+{ box-sizing: inherit; }
+
+.main-container
+{
+    display: grid;
+    grid-template-columns: 500px 700px;
+    grid-template-rows: 500px 200px 30px;
+
+    justify-items: stretch; /* aligns items along the inline (row) axis */
+    align-items: stretch; /* aligns along the block (column) axis) */
+    justify-content: space-between; /* aligns the total grid along the inline (row) axis */
+    align-content: space-between; /* aligns the total grid along the block (column) axis */
+    gap: 5px;
+
+    margin: 0px;
+    padding: 0px;
+
+    background-size: 100% auto;
+    /* background-size: contain; */
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: top center;
+
+    background: radial-gradient(ellipse at top, hsla(240, 20%, 20%, 0.6) 0%, hsla(280, 20%, 0%, 0.6) 50%),
+                url("../images/pexels-kaip-1341279.jpg") no-repeat top center;
+}
+
+#canvas-3d
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.orbital-selector
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.credits-background
+{
+    width: 100vw;
+    height: 100vh;
+    
+    margin: 0px;
+    padding: 0px;
+
+    color: hsl(0, 0%, 80%);
+
+    background-size: 100% auto;
+    /* background-size: contain; */
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: top center;
+
+    background: radial-gradient(ellipse at top, hsla(240, 20%, 20%, 0.6) 0%, hsla(280, 20%, 0%, 0.6) 50%),
+                url("../images/pexels-kaip-1341279.jpg") no-repeat top center;
+}
+
+.credits-link
+{
+    justify-self: center;
+    /* align-self: center; */
+}

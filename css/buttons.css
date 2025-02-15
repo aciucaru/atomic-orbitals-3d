@@ -1,0 +1,73 @@
+
+.button-reset
+{
+    border: none;
+
+    background-color: none;
+    background: none;
+}
+
+.orbital-button
+{
+    /* width and height are necessary in order to display the background image properly */
+    width: 100px;
+    height: 100px;
+
+    padding: 0px;
+    margin: 0px;
+
+    /* background-size: 100% auto; */
+    background-size: contain;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: top left;
+
+    filter: contrast(30%);
+}
+
+.orbital-button-enabled
+{
+    color: hsl(0, 0%, 80%);
+    border: solid 1px hsl(0, 0%, 20%);
+
+    /* filter: brightness(1.5); */
+    /* filter: brightness(1.2) saturate(100%) hue-rotate(270deg); */
+    filter: saturate(70%);
+}
+
+.orbital-button-disabled
+{
+    color: hsl(0, 0%, 80%);
+    border: solid 1px hsl(0, 0%, 20%);
+    filter: brightness(0.4) saturate(40%);
+}
+
+.orbital-button-selected
+{
+    color: hsl(0, 0%, 80%);
+    border: solid 1px hsl(0, 0%, 80%);
+    filter: saturate(70%);
+}
+
+#orbitalButton_1_0_0 { background-image: url("../images/orbitals/N1-L0-M0.png"); }
+
+#orbitalButton_2_0_0 { background-image: url("../images/orbitals/N2-L0-M0.png"); }
+#orbitalButton_2_1_0 { background-image: url("../images/orbitals/N2-L1-M0.png"); }
+#orbitalButton_2_1_-1 { background-image: url("../images/orbitals/N2-L1-M-1-Px.png"); }
+#orbitalButton_2_1_1 { background-image: url("../images/orbitals/N2-L1-M+1-Py.png"); }
+
+#orbitalButton_3_0_0 { background-image: url("../images/orbitals/N3-L0-M0.png"); }
+#orbitalButton_3_1_0 { background-image: url("../images/orbitals/N3-L1-M0.png"); }
+#orbitalButton_3_1_-1 { background-image: url("../images/orbitals/N3-L1-M-1-Px.png"); }
+#orbitalButton_3_1_1 { background-image: url("../images/orbitals/N3-L1-M+1-Py.png") }
+#orbitalButton_3_2_0 { background-image: url("../images/orbitals/N3-L2-M0.png"); }
+#orbitalButton_3_2_-1 { background-image: url("../images/orbitals/N3-L2-M-1-Dxz.png"); }
+#orbitalButton_3_2_1 { background-image: url("../images/orbitals/N3-L2-M+1-Dyz.png"); }
+#orbitalButton_3_2_-2 { background-image: url("../images/orbitals/N3-L2-M-2-Dxy.png"); }
+#orbitalButton_3_2_2 { background-image: url("../images/orbitals/N3-L2-M+2-Dx2-y2.png"); }
+
+.unselectable
+{
+    user-select: none;
+    -webkit-user-select: none;
+}

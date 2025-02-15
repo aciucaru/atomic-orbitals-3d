@@ -1,0 +1,358 @@
+.alkali-metal
+{
+   fill: hsla(240, 35%, 25%, 0.4);
+   fill-opacity: 1;
+   stroke: hsla(240, 30%, 45%, 0.4);
+   stroke-opacity: 1;
+   stroke-width: 0.7;
+}
+
+.alkali-metal:hover
+{
+   fill: hsla(240, 35%, 25%, 0.9);
+   fill-opacity: 1;
+   stroke: hsla(240, 30%, 45%, 0.9);
+   stroke-opacity: 1;
+}
+
+.alkali-metal-text
+{
+   font-size: 12px;
+   font-family:sans-serif;
+   stroke: none;
+   fill: hsl(220, 40%, 70%);
+   fill-opacity:1;
+   pointer-events: none;
+}
+
+
+.alkaline-earth-metal
+{
+   fill: hsla(160, 40%, 30%, 0.4);
+   fill-opacity: 1;
+   stroke: hsla(160, 40%, 50%, 0.4);
+   stroke-opacity: 1;
+   stroke-width: 0.7;
+}
+
+.alkaline-earth-metal:hover
+{
+   fill: hsla(160, 40%, 30%, 0.9);
+   fill-opacity: 1;
+   stroke: hsla(160, 40%, 50%, 0.9);
+   stroke-opacity: 1;
+}
+
+.alkaline-earth-metal-text
+{
+   font-size: 12px;
+   font-family:sans-serif;
+   stroke: none;
+   fill: hsl(140, 40%, 70%);
+   fill-opacity:1;
+   pointer-events: none;
+}
+
+.noble-gas
+{
+   fill: hsla(80, 40%, 30%, 0.4);
+   stroke: hsla(80, 40%, 45%, 0.4);
+   fill-opacity: 1;
+   stroke-width: 0.7;
+}
+
+.noble-gas:hover
+{
+   fill: hsla(80, 40%, 30%, 0.9);
+   stroke: hsla(80, 40%, 45%, 0.9);
+   fill-opacity: 1;
+}
+
+.noble-gas-text
+{
+   font-size: 12px;
+   font-family:sans-serif;
+   fill: hsl(60, 40%, 70%);
+   fill-opacity: 1;
+   stroke-width: 1;
+   pointer-events: none;
+}
+
+.diatomic-nonmetal
+{
+   fill: hsla(220, 40%, 25%, 0.4);
+   fill-opacity:1;
+   stroke: hsla(220, 40%, 40%, 0.4);
+   stroke-opacity:1;
+   stroke-width: 0.7;
+}
+
+.diatomic-nonmetal:hover
+{
+   fill: hsla(220, 40%, 25%, 0.9);
+   fill-opacity:1;
+   stroke: hsla(220, 40%, 40%, 0.9);
+   stroke-opacity:1;
+}
+
+.diatomic-nonmetal-text
+{
+   font-size: 12px;
+   font-family:sans-serif;
+   stroke: none;
+   fill: hsl(200, 40%, 70%);
+   fill-opacity:1;
+   pointer-events: none;
+}
+
+.metalloid
+{
+   fill: hsla(210, 25%, 30%, 0.4);
+   fill-opacity: 1;
+   stroke: hsla(210, 25%, 45%, 0.4);
+   stroke-opacity: 1;
+   stroke-width: 0.7;
+}
+
+.metalloid:hover
+{
+   fill: hsla(210, 25%, 30%, 0.9);
+   fill-opacity: 1;
+   stroke: hsla(210, 25%, 45%, 0.9);
+   stroke-opacity: 1;
+}
+
+.metalloid-text
+{
+   font-size: 12px;
+   font-family:sans-serif;
+   stroke: none;
+   fill: hsl(190, 40%, 70%);
+   fill-opacity:1;
+   pointer-events: none;
+}
+
+.post-transition-metal
+{
+   fill: hsla(140, 70%, 20%, 0.4);
+   fill-opacity:1;
+   stroke: hsla(140, 70%, 40%, 0.4);
+   stroke-opacity:1;
+   stroke-width: 0.7;
+}
+
+.post-transition-metal:hover
+{
+   fill: hsla(140, 70%, 20%, 0.9);
+   fill-opacity:1;
+   stroke: hsla(140, 70%, 40%, 0.9);
+   stroke-opacity:1;
+}
+
+.post-transition-metal-text
+{
+   font-size: 12px;
+   font-family:sans-serif;
+   fill: hsl(120, 40%, 70%);
+   fill-opacity: 1;
+   stroke-width: 1;
+   pointer-events: none;
+}
+
+.polyatomic-nonmetal
+{
+   fill: hsla(115, 30%, 20%, 0.4);
+   fill-opacity: 1;
+   stroke: hsla(115, 30%, 40%, 0.4);
+   stroke-opacity: 1;
+   stroke-width: 0.7;
+}
+
+.polyatomic-nonmetal:hover
+{
+   fill: hsla(115, 30%, 20%, 0.9);
+   fill-opacity: 1;
+   stroke: hsla(115, 30%, 40%, 0.9);
+   stroke-opacity: 1;
+}
+
+.polyatomic-nonmetal-text
+{
+   font-size: 12px;
+   font-family:sans-serif;
+   stroke:none;
+   fill: hsl(95, 40%, 70%);
+   fill-opacity:1;
+   pointer-events: none;
+}
+
+.transition-metal
+{
+   fill: hsla(230, 80%, 15%, 0.4);
+   fill-opacity:1;
+   stroke: hsla(230, 80%, 30%, 0.4);
+   stroke-opacity:1;
+   stroke-width: 0.7;
+}
+
+.transition-metal:hover
+{
+   fill: hsla(230, 80%, 15%, 0.9);
+   fill-opacity:1;
+   stroke: hsla(230, 80%, 30%, 0.9);
+   stroke-opacity:1;
+}
+
+.transition-metal-text
+{
+   font-size: 12px;
+   font-family:sans-serif;
+   stroke:none;
+   fill: hsl(210, 40%, 70%);
+   fill-opacity:1;
+   pointer-events: none;
+}
+
+.actinide
+{
+   fill: hsla(90, 30%, 20%, 0.4);
+   fill-opacity: 1;
+   stroke: hsla(90, 30%, 40%, 0.4);
+   stroke-opacity: 1;
+   stroke-width: 0.7;
+}
+
+.actinide:hover
+{
+   fill: hsla(90, 30%, 20%, 0.9);
+   fill-opacity: 1;
+   stroke: hsla(90, 30%, 40%, 0.9);
+   stroke-opacity: 1;
+}
+
+.actinide-text
+{
+   font-size: 12px;
+   font-family:sans-serif;
+   stroke: none;
+   fill: hsl(70, 40%, 70%);
+   fill-opacity:1;
+   pointer-events: none;
+}
+
+.lanthanide
+{
+   fill: hsla(80, 30%, 20%, 0.4);
+   fill-opacity: 1;
+   stroke: hsla(80, 30%, 40%, 0.4);
+   stroke-opacity: 1;
+   stroke-width: 0.7;
+}
+
+.lanthanide:hover
+{
+   fill: hsla(80, 30%, 20%, 0.9);
+   fill-opacity: 1;
+   stroke: hsla(80, 30%, 40%, 0.9);
+   stroke-opacity: 1;
+}
+
+.lanthanide-text
+{
+   font-size: 12px;
+   font-family:sans-serif;
+   stroke:none;
+   fill: hsl(60, 40%, 70%);
+   fill-opacity:1;
+   pointer-events: none;
+}
+
+.other
+{
+   fill: hsla(100, 0%, 15%, 0.4);
+   fill-opacity:1;
+   stroke: hsla(100, 0%, 30%, 0.4);
+   stroke-opacity:1;
+   stroke-width: 0.7;
+}
+
+.other:hover
+{
+   fill: hsla(100, 0%, 15%, 0.9);
+   fill-opacity:1;
+   stroke: hsla(100, 0%, 30%, 0.9);
+   stroke-opacity:1;
+}
+
+.other-text
+{
+   font-size: 12px;
+   font-family:sans-serif;
+   fill: hsl(0, 0%, 70%);
+   fill-opacity:1;
+   stroke: none;
+   stroke-opacity:1;
+   pointer-events: none;
+}
+
+.category-label
+{
+   font-size: 12px;
+   font-family:sans-serif;
+   fill: hsl(0, 0%, 50%);
+   fill-opacity: 1;
+   stroke-width: none;
+   pointer-events: none;
+}
+
+.category-label-other
+{
+   font-size: 12px;
+   font-family:sans-serif;
+   fill: hsl(0, 0%, 50%);
+   fill-opacity: 1;
+   stroke-width: none;
+   pointer-events: none;
+}
+
+.symbol-text
+{
+   font-size: 12px;
+   font-family:sans-serif;
+   fill: hsl(0, 0%, 80%);
+   fill-opacity: 1;
+   stroke: none;
+   pointer-events: none;
+}
+
+.empty-block
+{
+   fill: none;
+   fill-opacity:1;
+   stroke: hsl(0, 0%, 25%);
+   stroke-opacity:1;
+   pointer-events: none;
+   stroke-width: 0.7;
+}
+
+.periodic-divide
+{
+   stroke-width:25;
+   stroke-miterlimit:4;
+   stroke-dasharray:none;
+   fill: hsl(190, 40%, 15%);
+   fill-opacity:1;
+   stroke-opacity:1;
+   stroke: hsl(190, 40%, 15%);
+   pointer-events: none;
+}
+
+.atomic-number, .atomic-number-small, .atomic-small-2
+{
+   pointer-events: none;
+}
+
+.group-number, .group-label, .lanthanide-actinide-label
+{
+   pointer-events: none;
+}
