@@ -5,6 +5,9 @@ This is an [atomic orbitals](https://en.wikipedia.org/wiki/Atomic_orbital) plott
 Just select one of the first 30 atoms from the spiral periodic table and the most representative orbit for that atom will be displayed in 3D.
 Usually, the most representative orbit is the last (highest energy) orbit.
 
+### Live demo
+You can view the final result hosted for free on [netlify](https://atomic-orbitals-3d.netlify.app/) 
+
 ### Technologies used:
 * HTML, CSS
 * Javascript
