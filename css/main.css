@@ -69,5 +69,6 @@ html
 .credits-link
 {
     justify-self: center;
-    /* align-self: center; */
+    
+    color: hsl(0, 0%, 80%);
 }
