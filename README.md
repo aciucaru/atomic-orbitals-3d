@@ -1,4 +1,4 @@
-# Tone.js Poly synth
+# 3D Atomic Orbital viewer
 
 #### Description:
 This is an [atomic orbitals](https://en.wikipedia.org/wiki/Atomic_orbital) plotter, that draws the orbits of the electrons of atoms in 3D.
@@ -23,7 +23,7 @@ The source code is licensed under the MIT license.
 ### Image credits
 This project uses 3rd party images:
 * 2D pictures of orbitals: [Wikipedia](https://en.wikipedia.org/wiki/Atomic_orbital#Orbitals_table)
-* The Theodore Benfey sipral periodic table image is a modified version of an [Wikimedia](https://commons.wikimedia.org/wiki/File:Elementspiral_(polyatomic).svg) image and is licensed under Creative Commons By-SA 3.0 (same as original).
+* The Theodore Benfey spiral periodic table image is a modified version of an [Wikimedia](https://commons.wikimedia.org/wiki/File:Elementspiral_(polyatomic).svg) image and is licensed under Creative Commons By-SA 3.0 (same as original).
 * The star space background is: [Photo by Kai Pilger](https://www.pexels.com/photo/cluster-of-stars-1341279/), taken from www.pexels.com.
 
 There is an "image credits" link in the main page (index.html) of this project.
