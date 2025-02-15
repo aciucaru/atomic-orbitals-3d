@@ -15,8 +15,6 @@ Usually, the most representative orbit is the last (highest energy) orbit.
 ### How to run
 Just download the project and open the index.html file in a browser. No web server or compilation required, but an internet connection is required, because the Babylon.js 3D rendering library is not included in the project, it's loaded from a CDN, when the main page is loaded.
 
-### Compatibility
-
 ### License
 The source code is licensed under the MIT license.
 
